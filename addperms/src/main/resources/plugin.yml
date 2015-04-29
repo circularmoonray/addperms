@@ -1,0 +1,10 @@
+name: addperms
+main: com.github.circularmoonray.addperms.Add
+version: 0.0.1
+
+commands:
+  addperms:
+      description: This is add perms.
+      usage: /<command> <all>
+      permission: addperms.perms
+      permission-message: You don't have <permission>
