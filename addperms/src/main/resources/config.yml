@@ -1,0 +1,18 @@
+# MySqlに接続するための設定
+# (指示がない限りいじらないように)
+host: 'unchama.kig.jp'
+port: '3306'
+db: 'db'
+id: 'unchama-ser'
+pw: 'unchama'
+
+# 整地力を計算するための各パラメーターの係数
+# 初期値は1になる。 0にすると計算スキップ ':'と数字の間に半角スペースを入れること
+stone: 1
+netherrack: 1
+dirt: 1
+gravel: 1
+log: 1
+seed: 1
+potate: 1
+carrot: 1

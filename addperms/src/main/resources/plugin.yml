@@ -1,10 +1,11 @@
-name: addperms
-main: com.github.circularmoonray.addperms.Add
-version: 0.0.1
+name: "${priject.name}"
+main: com.github.circularmoonray.addperms.AddPerms
+version: ${project.vesion}
+author: moonray
 
 commands:
   addperms:
       description: This is add perms.
-      usage: /<command> <all>
+      usage: /<command> <reload>
       permission: addperms.perms
       permission-message: You don't have <permission>
